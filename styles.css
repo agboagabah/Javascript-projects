@@ -1,0 +1,30 @@
+body{
+    background:linear-gradient(to right, #f6490f, #f27813,#ef9614);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#showtime{
+    font-size: large;
+    font-weight: bold;
+    color: #ef9614;
+}
+
+.container{
+    width: 80vh;
+    max-width: 80%;
+    background-color: beige;
+    height: 70vh;
+    box-shadow: 0 0 5px 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    text-align: center;
+
+}
