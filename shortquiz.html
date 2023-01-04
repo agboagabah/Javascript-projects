@@ -3,33 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz</title>
-    <link rel="stylesheet" href="quiz.css">
-   
+    <meta name="viewport" content="width=device-width, initial-scale=q">
+    <title>quiz</title>
 </head>
 <body>
-    <div class="container">
-        <div class="score"> 
-            <span id="user-score">0</span>
-            <span id="totalscore">/5</span>
-        </div>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="panel">
+		<div class="result">
 
-        <div class="content" id="question-area">
-        <div id="question-text"></div>
-       <div class="options">
-             <button class="btn btn-option" id="True">True</button>
-            <button class="btn btn-option" id="False">False</button>
-        </div>
-        </div> 
+		</div>
+		<div class="question-container" id="question">
+			
+		</div>
+		<div class="option-container">
+			<button class="option" onclick="" id="op1" >option1</button>
+	
+			<button class="option" id="op2" >option2</button>
+	
+			<button class="option" id="op3">option3</button>
+	
+			<button class="option" id="op4">option4</button>
+		</div>
+		<div class="navigation">
+			<button class="evaluate">Evaluate</button>
+			<button class="next">Next</button>
+		</div>
+	</div>
+	<script src="shortquiz.js"></script>
+</body>
+</html>
 
-        <div class="controls">
-            <button class="btn btn-restart" id="restart">Restart</button>
-            <button class="btn btn-prev" id="prev">Prev</button>
-            <button class="btn btn-next" id="next">Next</button>
-            <button class="btn btn-submit" id="submit">Submit</button>
-        </div>
- </div>
-     <script src="shortquiz.js"></script>
+    
 </body>
 </html>
